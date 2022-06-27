@@ -25,8 +25,12 @@ installation url:  sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/
 8. Add plugins of your choice in the init.vim file e.g setup
 
    call plug#begin()
+   
    Plug 'https://github.com/vim-airline/vim-airline' " Status bar
    Plug 'https://github.com/preservim/nerdtree' " NerdTree
 
    call plug#end()
+   
+ 9. Inside init.vim whiles in command mode type
+    :PlugInstall 
   
